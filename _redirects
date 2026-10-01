@@ -1,0 +1,14 @@
+# Send the old domain to the new one
+https://ebdproperties.com/*      https://ebdconstructionllc.com/:splat  301!
+https://www.ebdproperties.com/*  https://ebdconstructionllc.com/:splat  301!
+http://ebdproperties.com/*       https://ebdconstructionllc.com/:splat  301!
+http://www.ebdproperties.com/*   https://ebdconstructionllc.com/:splat  301!
+
+# Old page addresses from the GoDaddy site
+/home.html                    /                 301
+/quotes.html                  /contact.html     301
+/indoor-living.html           /gallery.html     301
+/kitchens---baths.html        /gallery.html     301
+/porches---decks.html         /gallery.html     301
+/home-builds.html             /gallery.html     301
+/outdoor-transformations.html /gallery.html     301
