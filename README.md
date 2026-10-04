@@ -14,3 +14,6 @@ Add ebdproperties.com as a domain alias in Netlify and point its DNS at Netlify 
 ## Photos
 All photos in /img were resized and had location data (GPS) removed.
 MLS listing photos were left out. Add them only with the listing photographer's permission.
+
+## Analytics
+Every page has the Google Analytics tag G-4M8Z6WERS5 (EBD Construction property) just before `</head>`. Copy it into any new page.
