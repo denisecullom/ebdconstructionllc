@@ -157,3 +157,33 @@ form.lead .note{font-size:.9rem;color:var(--muted);margin:0}
 .brand img{height:66px}
 .split img{max-height:640px}
 @media (max-width:860px){.brand img{height:54px}.split img{max-height:460px}}
+
+/* Guides */
+.crumbs{font-size:1rem;margin:0 0 .8rem!important}
+.crumbs a{color:#fff}
+.prose{max-width:760px}
+.prose h2{font-size:clamp(1.8rem,3.6vw,2.4rem);margin-top:2.6rem}
+.prose ol,.prose ul:not(.checks){padding-left:1.3rem;margin:0 0 1.2rem}
+.prose li{margin-bottom:.45rem}
+.prose .checks{margin-bottom:1.2rem}
+.prose .checks strong{font-size:1.2rem}
+.prose figure{margin:1.8rem 0}
+.prose figure img{border-radius:10px;max-height:620px;width:100%;object-fit:cover}
+.prose figure figcaption{font-size:.95rem;color:var(--muted);margin-top:.4rem}
+.prose .pair{margin:1.8rem 0}
+.prose .pair figure{margin:0}
+.byline{color:var(--muted);font-size:1rem}
+.answer{background:var(--stone);border-left:6px solid var(--red);padding:1.2rem 1.4rem;border-radius:6px;margin:1rem 0 1.5rem}
+.answer p{margin:0}
+.tip{background:var(--stone);padding:1rem 1.2rem;border-radius:6px}
+.table-wrap{overflow-x:auto;margin:0 0 1.2rem}
+.prose table{border-collapse:collapse;width:100%;min-width:520px;font-size:1rem}
+.prose th,.prose td{border-bottom:1px solid var(--line);padding:.7rem .6rem;text-align:left;vertical-align:top}
+.prose th{font-family:var(--head);font-size:1.15rem;background:var(--navy);color:#fff}
+.prose td:last-child{white-space:nowrap;font-weight:600}
+.prose ul.towns{columns:2 200px;padding-left:1.3rem}
+.faq details{border-bottom:1px solid var(--line);padding:.9rem 0}
+.faq summary{font-family:var(--head);font-size:1.3rem;font-weight:600;cursor:pointer}
+.faq details p{margin:.6rem 0 0}
+.nav a{white-space:nowrap}
+@media (max-width:1000px){.nav{display:none}.menu{display:block}}
