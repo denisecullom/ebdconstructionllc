@@ -24,6 +24,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-4M8Z6WERS5');
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (!a) return;
+    gtag('event', 'phone_call_click', {link_url: a.href, page_path: location.pathname});
+    if (window.fbq) fbq('track', 'Contact');
+  });
 </script>
 <!-- Meta Pixel Code -->
 <script>
