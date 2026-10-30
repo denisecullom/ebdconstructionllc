@@ -124,6 +124,8 @@ form.lead .note{font-size:.9rem;color:var(--muted);margin:0}
 /* Page header */
 .page-head{background:var(--navy);color:#fff;padding-block:clamp(2.5rem,6vw,4rem)}
 .page-head p{color:#D6E0EE;max-width:60ch;font-size:1.2rem;margin:0}
+.page-head a,.trust a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.page-head a:hover,.trust a:hover{color:#FFD9DA}
 .service{padding-block:3rem;border-bottom:1px solid var(--line)}
 .service:last-child{border-bottom:0}
 
